@@ -42,4 +42,11 @@
   .car-card {
     @apply bg-[#1a1f3a] rounded-lg overflow-hidden border border-[#2a3050] transition-all duration-300 hover:scale-105;
   }
+    .car-card-image {
+    @apply relative h-56 overflow-hidden;
+  }
+  .car-card-overlay {
+    @apply absolute inset-0 bg-black/40 flex items-end justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300;
+  }
+
 }
