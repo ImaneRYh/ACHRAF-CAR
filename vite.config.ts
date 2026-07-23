@@ -17,5 +17,5 @@ export default defineConfig({
   },
   // Si vous déployez sur https://<username>.github.io/<repo>/, 
   // décommentez la ligne suivante et remplacez <repo> par le nom de votre dépôt :
-  base: "/<ACHRAF-CAR>/",
+  base: "/ACHRAF-CAR/",
 });

@@ -12,7 +12,7 @@ export default function Home() {
         <div className="container max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img 
-              src="/logo.jpeg" 
+              src={`${import.meta.env.BASE_URL}logo.jpeg`}
               alt="Achraf Car" 
               className="h-10 w-10 rounded-full"
             />
@@ -35,7 +35,7 @@ export default function Home() {
         <div
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: `url('/cars/rangeroversport.jpeg')`,
+            backgroundImage: `url('${import.meta.env.BASE_URL}cars/rangeroversport.jpeg')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
